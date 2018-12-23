@@ -13,7 +13,18 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
+    'failed'   => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+
+    'login'                 => 'Log in',
+    'email'                 => 'Email',
+    'password'              => 'Password',
+    'new_password'          => 'New password',
+    'password_confirmation' => 'Confirm password',
+    'remember'              => 'Remember me',
+    'register'              => 'Create an account',
+    'forgot'                => 'Forgot your password?',
+    'reset'                 => 'Reset password',
+    'send_reset'            => 'Send reset link',
 
 ];
