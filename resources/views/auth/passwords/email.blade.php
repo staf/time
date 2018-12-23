@@ -1,8 +1,6 @@
-@extends('layouts.public')
+@extends('layouts.public', ['title' => trans('auth.reset')])
 
 @section('content')
-    <h2 class="auth-title">{{ trans('auth.reset') }}</h2>
-
 
     <form method="POST" action="{{ route('password.email') }}">
         @csrf
